@@ -1,4 +1,4 @@
-# Yolo-v2 Model
+# YOLO-v2 Model
 You Only Look Once Version-2
 
 # Collaborator
