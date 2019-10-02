@@ -19,7 +19,7 @@ Object detection is one of the most important application of deep learning in re
 <table>
     <tr>
         <td></td>
-        <td>ENVIRONMENT DESCRIPTION</td>
+        <td># ENVIRONMENT DESCRIPTION </td>
     </tr>
         <tr>
         <td>Tensorflow Version</td>
