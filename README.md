@@ -16,6 +16,7 @@ Object detection is one of the most important application of deep learning in re
 -Confidence Score: This is the score determining the proability of an object in the anchor box. When the confidence score of a detection that is supposed to detect a ground-truth is lower than the threshold, the detection counts as a false negative (FN). On the other hand, when the confidence score of a detection that is not supposed to detect anything is lower than the threshold, the detection counts as a true negative (TN). 
 
 # Model Description
+
 <table>
     <tr>
         <td></td>
@@ -123,7 +124,7 @@ Object detection is one of the most important application of deep learning in re
     </tr> 
     <tr>
         <td>Learning Rate</td>
-        <td>0.001( To avoid overshooting in the complex objective function minima )</td>
+        <td>0.001</td>
     </tr> 
     <tr>
         <td>Batch Size</td>
@@ -131,11 +132,11 @@ Object detection is one of the most important application of deep learning in re
     </tr> 
     <tr>
         <td>Steps per epoch</td>
-        <td>68</td>
+        <td>23</td>
     </tr> 
     <tr>
         <td>Time per epoch step</td>
-        <td>0.25s/step</td>
+        <td>-</td>
     </tr> 
     <tr>
         <td>Epochs</td>
@@ -143,7 +144,7 @@ Object detection is one of the most important application of deep learning in re
     </tr> 
     <tr>
         <td>Time per Epoch</td>
-        <td>17s/epoch</td>
+        <td>-</td>
     </tr> 
     <tr>
         <td></td>
@@ -151,18 +152,19 @@ Object detection is one of the most important application of deep learning in re
     </tr> 
     <tr>
         <td>Loss Function</td>
-        <td>YOLOv3 loss function</td>
+        <td>YOLOv2 loss function</td>
     </tr> 
     <tr>
         <td>Average Loss</td>
-        <td>0.6</td>
+        <td>0.50132</td>
     </tr> 
     <tr>
         <td>Loss</td>
-        <td>0.5</td>
+        <td>0.4702</td>
     </tr> 
       
 </table>
+
 
 # Introduction Of Files Contained In This Repository
 -yolo_v2.py - This python file contains the code of the model
