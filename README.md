@@ -16,6 +16,16 @@ Object detection is one of the most important application of deep learning in re
 -Confidence Score: This is the score determining the proability of an object in the anchor box. When the confidence score of a detection that is supposed to detect a ground-truth is lower than the threshold, the detection counts as a false negative (FN). On the other hand, when the confidence score of a detection that is not supposed to detect anything is lower than the threshold, the detection counts as a true negative (TN). 
 
 # Model Description
+<table>
+    <tr>
+        <td>First Cell</td>
+        <td>Second Cell</td>
+    </tr>
+    <tr>
+        <td>First Cell, Second Row</td>
+        <td>Second Cell, Second Row</td>
+    </tr>
+</table>
 
 # Introduction Of Files Contained In This Repository
 -yolo_v2.py - This python file contains the code of the model
