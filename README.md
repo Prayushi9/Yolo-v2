@@ -19,7 +19,7 @@ Object detection is one of the most important application of deep learning in re
 <table>
     <tr>
         <td></td>
-        <td>ENVIRONMENT DESCRIPTION/td>
+        <td>ENVIRONMENT DESCRIPTION</td>
     </tr>
         <tr>
         <td>Tensorflow Version</td>
@@ -85,36 +85,83 @@ Object detection is one of the most important application of deep learning in re
         <td>Size</td>
         <td>330,000 Images</td>
     </tr> 
-
-     <tr>
+         <tr>
         <td>Resolution</td>
         <td>640x480</td>
     </tr> 
-     <tr>
-        <td></td>
-        <td></td>
-    </tr> 
-     <tr>
-        <td></td>
-        <td></td>
-    </tr> 
-     <tr>
-        <td></td>
-        <td></td>
-    </tr> 
-     <tr>
-        <td></td>
-        <td></td>
-    </tr> 
-     <tr>
-        <td></td>
-        <td></td>
-    </tr>     
-    
     <tr>
-        <td>First Cell, Second Row</td>
-        <td>Second Cell, Second Row</td>
-    </tr>
+        <td>Spatial Extent</td>
+        <td>Complex spatial context between stuff and things</td>
+    </tr> 
+        <tr>
+        <td>Characteristics</td>
+        <td>COCO is a large-scale object detection, segmentation, and captioning dataset. COCO has several features: Object segmentation, recognition in context, superpixel stuff segmentation, 330k images(>200k labelled), 1.5 million object instances, 80 object categories, 91 stuff categories, 5 caption per image, 250,000 people with keypoints.</td>
+    </tr> 
+        <tr>
+        <td>Number of Object Classes</td>
+        <td>80</td>
+    </tr> 
+        <tr>
+        <td></td>
+        <td>Experimentation</td>
+    </tr> 
+        <tr>
+        <td>Training Data Size</td>
+        <td>80,000 Images</td>
+    </tr> 
+        <tr>
+        <td>Validation Data Size</td>
+        <td>40,000 Images</td>
+    </tr> 
+        <tr>
+        <td>Testing Data Size</td>
+        <td>-</td>
+    </tr> 
+    <tr>
+        <td>Optimizer</td>
+        <td>Adam</td>
+    </tr> 
+    <tr>
+        <td>Learning Rate</td>
+        <td>0.001( To avoid overshooting in the complex objective function minima )</td>
+    </tr> 
+    <tr>
+        <td>Batch Size</td>
+        <td>64</td>
+    </tr> 
+    <tr>
+        <td>Steps per epoch</td>
+        <td>68</td>
+    </tr> 
+    <tr>
+        <td>Time per epoch step</td>
+        <td>0.25s/step</td>
+    </tr> 
+    <tr>
+        <td>Epochs</td>
+        <td>100</td>
+    </tr> 
+    <tr>
+        <td>Time per Epoch</td>
+        <td>17s/epoch</td>
+    </tr> 
+    <tr>
+        <td></td>
+        <td>Evaluation</td>
+    </tr> 
+    <tr>
+        <td>Loss Function</td>
+        <td>YOLOv3 loss function</td>
+    </tr> 
+    <tr>
+        <td>Average Loss</td>
+        <td>0.6</td>
+    </tr> 
+    <tr>
+        <td>Loss</td>
+        <td>0.5</td>
+    </tr> 
+      
 </table>
 
 # Introduction Of Files Contained In This Repository
