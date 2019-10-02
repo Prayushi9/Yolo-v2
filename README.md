@@ -35,4 +35,4 @@ Open the folder and run the below command in the command prompt for object detec
 
 # Results
 <img src="results/dining_table.png" alt="pic" class="inline"/><br>
-<img src="img/Screenshot from 2019-10-01 20-41-47.png" alt="pic" class="inline"/><br>
+<img src="img/aero.png" alt="pic" class="inline"/><br>
